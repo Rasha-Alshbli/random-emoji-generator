@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, pink, indigo);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.section {
+    text-align: center;
+}
+
+.btn {
+    font-size: 4rem;
+    border: none;
+    background: rgba(255, 255, 255, .4);
+    border-radius: 1rem;
+    padding: 15px;
+    filter: grayscale();
+    transition: filter .2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: grayscale(0);
+}
+
+.emoji-name {
+    font-weight: 600;
+    color: rgb(48, 17, 38);
+    padding-top: 10px;
+}
